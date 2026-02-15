@@ -2,6 +2,8 @@
 name = "hlm-wad-tools"
 version = "0.1.0"
 edition = "2024"
+repository = "https://github.com/carlos-menezes/hlm-wad-tools"
+authors = ["Carlos Menezes"]
 
 [[bin]]
 name = "hlm-wad-tools"
