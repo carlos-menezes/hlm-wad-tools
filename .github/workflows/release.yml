@@ -60,10 +60,16 @@ jobs:
         with:
           path: artifacts
 
+      - name: Prepare release assets
+        run: |
+          mkdir -p release-assets
+          find artifacts -type f -exec mv {} release-assets/ \;
+          ls -la release-assets/
+
       - name: Create Release
         uses: softprops/action-gh-release@v1
         with:
-          files: artifacts/*/*
+          files: release-assets/*
           generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
