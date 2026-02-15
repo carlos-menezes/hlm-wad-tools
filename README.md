@@ -2,7 +2,7 @@
 
 [![Crates.io Version](https://img.shields.io/crates/v/hlm-wad-tools?style=for-the-badge)](https://crates.io/crates/hlm-wad-tools)
 
-Tools for extracting and repacking Hotline Miami's `.wad` archive files.
+Tool for extracting and repacking Hotline Miami's `.wad` archive files.
 
 ## Quick Start
 
