@@ -1,20 +1,21 @@
 # hlm-wad-tools
 
+![Crates.io Version](https://img.shields.io/crates/v/hlm-wad-tools?style=for-the-badge)
+
 Tools for extracting and repacking Hotline Miami's `.wad` archive files.
 
 ## Quick Start
 
 ```bash
-# Build the tool
-cargo build --release
+cargo install hlm-wad-tools
 
 # Extract WAD file
-./target/release/hlm-wad-tools extract hlm2_data_desktop.wad extracted/
+hlm-wad-tools extract original.wad extracted/
 
 # Make your modifications to files in extracted/
 
 # Repack WAD file
-./target/release/hlm-wad-tools repack extracted/ hlm2_data_desktop_modified.wad
+hlm-wad-tools repack extracted/ modified.wad
 ```
 
 ## WAD File Format

@@ -4,6 +4,10 @@ version = "0.1.0"
 edition = "2024"
 repository = "https://github.com/carlos-menezes/hlm-wad-tools"
 authors = ["Carlos Menezes"]
+description = "Tools for extracting and repacking Hotline Miami's .wad archive files"
+license = "MIT OR Apache-2.0"
+keywords = ["hotline-miami", "wad", "archive", "extraction"]
+categories = ["command-line-utilities", "game-development"]
 
 [[bin]]
 name = "hlm-wad-tools"
