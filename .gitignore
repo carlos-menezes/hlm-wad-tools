@@ -1,0 +1,5 @@
+*.wad
+extracted
+
+# Added by cargo
+/target

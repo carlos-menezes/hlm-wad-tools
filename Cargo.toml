@@ -1,0 +1,8 @@
+[package]
+name = "hlm-wad-tools"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "hlm-wad-tools"
+path = "src/hlm-wad-tools.rs"
