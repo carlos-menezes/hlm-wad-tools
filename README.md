@@ -8,19 +8,13 @@ Tools for extracting and repacking Hotline Miami's `.wad` archive files.
 # Build the tool
 cargo build --release
 
-# Extract WAD file (silent by default)
+# Extract WAD file
 ./target/release/hlm-wad-tools extract hlm2_data_desktop.wad extracted/
-
-# Extract with verbose output showing progress
-./target/release/hlm-wad-tools extract hlm2_data_desktop.wad extracted/ --verbose
 
 # Make your modifications to files in extracted/
 
-# Repack WAD file (silent by default)
+# Repack WAD file
 ./target/release/hlm-wad-tools repack extracted/ hlm2_data_desktop_modified.wad
-
-# Repack with verbose output
-./target/release/hlm-wad-tools repack extracted/ hlm2_data_desktop_modified.wad --verbose
 ```
 
 ## WAD File Format
